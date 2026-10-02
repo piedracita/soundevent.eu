@@ -21,16 +21,25 @@ jobs:
 
     - name: 📂 FTP Upload Main Web
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      timeout-minutes: 10
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: ./soundevent.eu/
-        # AQUESTA LÍNIA ÉS LA CLAU:
         exclude: |
           .github/**
 
-timeout-minutes: 10
-continue-on-error: true
-retry-times: 3
+    - name: 📂 FTP Upload Retry
+      if: failure()
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      timeout-minutes: 10
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: ./soundevent.eu/
+        exclude: |
+          .github/**
