@@ -29,5 +29,8 @@ jobs:
         server-dir: ./soundevent.eu/
         # AQUESTA LÍNIA ÉS LA CLAU:
         exclude: |
-          .git*
           .github/**
+
+timeout-minutes: 10
+continue-on-error: true
+retry-times: 3
