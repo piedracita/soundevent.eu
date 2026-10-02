@@ -65,9 +65,6 @@
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="#header" class="smooth-anchor nav-link">INICIO</a>
-                </li>
-                <li class="nav-item">
                     <a href="#single" class="smooth-anchor nav-link">NOSOTROS</a>
                 </li>
                 <li class="nav-item">
@@ -75,6 +72,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="#process" class="smooth-anchor nav-link">PROCESO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="smooth-anchor nav-link">PRECIO</a>
                 </li>
                 <li class="nav-item">
                     <a href="#testimonials" class="smooth-anchor nav-link">TESTIMONIOS</a>
