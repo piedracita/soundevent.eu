@@ -10,9 +10,9 @@
                     <a class="navbar-brand" href="/">
                         <span class="brand">
                             <span class="featured">
-                                <span class="first">NEX</span>
+                                <span class="first">SOUND</span>
                             </span>
-                            <span class="last">GEN</span>
+                            <span class="last">EVENT</span>
                         </span>
                         
                         <!-- 
@@ -20,32 +20,34 @@
                             <img src="assets/images/logo.svg" alt="NEXGEN">
                         -->
                     </a>
-                    <p>A Functional HTML Template<br>for Corporate & Business.</p>
+
+                    <p>Producción Técnica y <br>Alquiler de Sonido para Eventos</p>
+
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-phone-alt mr-2"></i>
-                                +1 (305) 1234-5678
+                                +34 625 171 701
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-envelope mr-2"></i>
-                                hello@example.com
+                                info@soundevent.eu
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-map-marker-alt mr-2"></i>
-                                Main Avenue, 987
+                                Barcelona & Lleida, Spain
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="mt-4 btn outline-button smooth-anchor">GET IN TOUCH</a>
+                            <a href="#contact" class="mt-4 btn outline-button smooth-anchor">CONTÁCTANOS</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-9 p-0 footer-right">
+                <!-- <div class="col-12 col-lg-9 p-0 footer-right">
                     <div class="row items">
                         <div class="col-12 col-lg-4 item">
                             <div class="card">
@@ -81,7 +83,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -91,13 +93,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                    <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                    <!--
-                        Suggestion: Replace the text above with a description of your website.
-                        -->
+                    <p>Especialistas en alquiler de sonido, iluminación y producción para eventos.</p>
                 </div>
                 <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                    <p>© <?php echo date('Y'); ?> NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+                    <p>© <?php echo date('Y'); ?> SoundEvent. Producción Técnica de Eventos.</p>
                 </div>
             </div>
         </div>
