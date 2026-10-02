@@ -1,0 +1,33 @@
+name: 🚀 Deploy SoundEvent.eu via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: 🎉 Syncing Files
+    runs-on: ubuntu-latest
+    concurrency: 
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: 📂 FTP Upload Main Web
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
+        server-dir: ./soundevent.eu/
+        # AQUESTA LÍNIA ÉS LA CLAU:
+        exclude: |
+          .git*
+          .github/**
