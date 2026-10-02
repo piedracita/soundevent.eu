@@ -1,4 +1,8 @@
 <?php
+// Inicialització global (Sessió, Idioma, WhatsApp)
+require_once "common-php/init.php";
+
+// Metadades d'aquesta pàgina
 $page_title = "SoundEvent - Producción de Eventos, Sonido e Iluminación Profesional";
 $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación profesional, DJ, escenarios y producción técnica para eventos y espectáculos.";
 ?>
@@ -74,6 +78,9 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
         <!-- COMMON-SECTION-CONTACT -->
         <?php include "common-php/sections/es/contact.php"; ?>
         <!-- /COMMON-SECTION-CONTACT -->
+
+        <!-- Botó Flotant de WhatsApp -->
+        <?php include "common-php/whatsapp.php"; ?>
 
         <!-- COMMON-FOOTER -->
         <?php include "common-php/footer/es.php"; ?>

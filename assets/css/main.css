@@ -40,6 +40,7 @@
 13. Miscellaneous
 14. Keyframe
 15. All Media Queries
+16. Custom CSS - Whatsapp Float Button
 
 ----------------------------------------------*/
 
@@ -4727,3 +4728,39 @@ footer .copyright p {
 }
 
 /* #endregion All Media Queries */
+
+/*----------------------------------------------
+16. Custom CSS - Whatsapp Float Button
+----------------------------------------------*/
+
+/* Botó flotant de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: #FFF !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    color: #FFF !important;
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    margin-top: 2px;
+    font-size: 2.5rem;
+}

@@ -17,7 +17,7 @@
             <!-- Navbar Items [right] -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+34 625 171 701</a>
+                    <a href="<?php echo $wa_url; ?>" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+34 625 171 701</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>info@soundevent.eu</a>
