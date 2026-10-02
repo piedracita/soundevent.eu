@@ -15,31 +15,25 @@ jobs:
 
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
     - name: 📂 FTP Upload Main Web
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      timeout-minutes: 10
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: ./soundevent.eu/
+        # OPCIONS PER EVITAR L'ERROR ECONNRESET:
+        passive: true
+        security: loose
+        timeout: 60000
         exclude: |
+          .git*
+          .git*/**
           .github/**
-
-    - name: 📂 FTP Upload Retry
-      if: failure()
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      timeout-minutes: 10
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./
-        server-dir: ./soundevent.eu/
-        exclude: |
-          .github/**
+          README.md
+          .gitignore
