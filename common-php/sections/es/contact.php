@@ -65,7 +65,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?php echo $mailto_url; ?>" target="_blank" rel="noopener noreferrer" class="nav-link">
                                 <i class="fas fa-envelope mr-2"></i>
                                 info@soundevent.eu
                             </a>
