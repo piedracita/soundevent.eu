@@ -64,25 +64,25 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
                     <div class="col-12 col-lg-8 p-0 text">
                         <div class="row intro m-0">
                             <div class="col-12">
-                                <span class="pre-title m-0">Who We Are</span>
+                                <span class="pre-title m-0">Quiénes Somos</span>
                                 <div class="title-icon">
                                     
-                                    <h2><span class="featured"><span><i class="icon icon-diamond"></i>Excellence</span></span> in Transport</h2>
+                                    <h2><span class="featured"><span><i class="icon icon-diamond"></i>Excelencia</span></span> en Producción Técnica</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 align-self-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum velit tortor, interdum sed cursus eu, sagittis ut nunc. Sed vitae tellus et arcu aliquet faucibus fermentum non lacus.</p>
-                                <p>Praesent fringilla quis massa et placerat. Mauris eu dui eget urna pellentesque gravida vitae quis nibh. Ut at augue tortor. Pellentesque quis suscipit magna.</p>
-                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</blockquote>
-                                <p>Sed mauris nulla, tempor eu est vel, dapibus hendrerit mauris curabitur dictum pharetra.</p>
+                                <p>En SoundEvent nos apasiona convertir cualquier idea en una experiencia audiovisual inolvidable. Somos especialistas en el <strong>alquiler de equipos de sonido</strong>, iluminación profesional, escenarios y <strong>servicios de DJ</strong> para todo tipo de <strong>eventos privados, bodas y actos corporativos</strong>.</p>
+                                <p>Contamos con un equipo técnico altamente cualificado y con tecnología de última generación para garantizar la <b>máxima calidad acústica y visual</b>.</p>
+                                <blockquote>Nos encargamos de todo el proceso: desde el asesoramiento inicial hasta el montaje, pruebas de sonido y asistencia en directo.</blockquote>
+                                <p>Nuestra filosofía se basa en la puntualidad, la precisión técnica y un trato cercano y personalizado. Adaptamos cada proyecto a las necesidades específicas del cliente y del espacio para lograr un resultado impecable.</p>
                                 <ul>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>Consectetur adipiscing elit</li>
-                                    <li>Integer molestie lorem at massa</li>
-                                    <li>Facilisis in pretium nisl aliquet</li>
-                                    <li>Dapibus hendrerit mauris curabitur</li>
+                                    <li>Equipos de <b>sonido e iluminación</b> de alta gama</li>
+                                    <li>Asesoramiento y <b>presupuesto</b> técnico sin compromiso</li>
+                                    <li>Montaje, <b>sonorización</b> y asistencia durante el evento</li>
+                                    <li>Experiencia en eventos <strong>corporativos, bodas y fiestas privadas</strong></li>
+                                    <li>Soluciones integrales a medida para cada espacio</li>
                                 </ul>
                             </div>
                         </div>        
@@ -94,28 +94,28 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
                         <!-- Services -->
                         <div class="row item widget-services">
                             <div class="col-12 align-self-center">
-                                <h4 class="title">Vehicle Types</h4>
+                                <h4 class="title">Packs Básicos</h4>
                                 <div class="quote">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item d-flex justify-content-start align-items-center">
                                             <img src="assets/images/truck-1.png" class="h-img" title="Truck">
                                             <div class="list-group-content">
-                                                <h4>Light</h4>
-                                                <p>Max Weight 1200 Kg</p>
+                                                <h4>Sonido</h4>
+                                                <p>Equipos de sonido de alta gama</p>
                                             </div>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-start align-items-center">
                                             <img src="assets/images/truck-1.png" class="h-img" title="Truck">
                                             <div class="list-group-content">
-                                                <h4>Medium</h4>
-                                                <p>Max Weight 6000 Kg</p>
+                                                <h4>Iluminación</h4>
+                                                <p>Equipos de iluminación de alta gama</p>
                                             </div>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-start align-items-center">
                                             <img src="assets/images/truck-1.png" class="h-img" title="Truck">
                                             <div class="list-group-content">
-                                                <h4>Heavy</h4>
-                                                <p>Max Weight 24000 Kg</p>
+                                                <h4>DJ</h4>
+                                                <p>Servicio de DJ con equipos de sonido</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -124,7 +124,7 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
                         </div>   
 
                         <!-- Gallery -->
-                        <div class="row item widget-gallery mb-0">
+                        <!-- <div class="row item widget-gallery mb-0">
                             <div class="col-12 align-self-center">
                                 <h4 class="title">Certifications</h4>
                                 <div class="gallery row justify-content-center">
@@ -136,7 +136,7 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </aside>
                 </div>
             </div>
@@ -181,45 +181,9 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
             </div>
         </section>
         
-        <!-- Process -->
-        <section id="process" class="section-3 process offers">
-            <div class="container full">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <span class="pre-title">How it works in practice</span>
-                        <h2><span class="featured"><span>Logistical</span></span> Procedure</h2>
-                        <p class="text-max-800">We work with innovative methodologies to ensure that the entire delivery process is done from start to finish as planned.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-2 item">
-                        <div class="step"><span>01</span></div>
-                        <h4>Collection of information</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-2 item">
-                        <div class="step"><span>02</span></div>
-                        <h4>Service Invoice Sending</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-2 item">
-                        <div class="step"><span>03</span></div>
-                        <h4>Withdrawal<br>of Cargo</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-2 item">
-                        <div class="step"><span>04</span></div>
-                        <h4>Transport Customer Order</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-2 item">
-                        <div class="step"><span>05</span></div>
-                        <h4>Successful Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- COMMON-SECTION-PROCESS -->
+        <?php include "common-php/sections/es/process.php"; ?>
+        <!-- /COMMON-SECTION-PROCESS -->
 
         <!-- Fun Facts -->
         <section id="funfacts" class="section-4 odd counter funfacts">

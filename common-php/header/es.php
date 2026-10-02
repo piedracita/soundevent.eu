@@ -17,15 +17,15 @@
             <!-- Navbar Items [right] -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+1 (305) 1234-5678</a>
+                    <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+34 625 171 701</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>hello@example.com</a>
+                    <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>info@soundevent.eu</a>
                 </li>
             </ul>
 
             <!-- Navbar Icons -->
-            <ul class="navbar-nav icons">
+            <!-- <ul class="navbar-nav icons">
                 <li class="nav-item social">
                     <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
                 </li>
@@ -35,7 +35,7 @@
                 <li class="nav-item social">
                     <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
                 </li>
-            </ul>
+            </ul> -->
 
         </div>
     </nav>
@@ -48,9 +48,9 @@
             <a class="navbar-brand" href="/">
                 <span class="brand">
                     <span class="featured">
-                        <span class="first">NEX</span>
+                        <span class="first">SOUND</span>
                     </span>
-                    <span class="last">GEN</span>
+                    <span class="last">EVENT</span>
                 </span>
                 
                 <!-- 
@@ -65,28 +65,19 @@
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="#header" class="smooth-anchor nav-link">HOME</a>
+                    <a href="#header" class="smooth-anchor nav-link">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#single" class="smooth-anchor nav-link">ABOUT</a>
+                    <a href="#single" class="smooth-anchor nav-link">NOSOTROS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#features" class="smooth-anchor nav-link">SERVICES</a>
+                    <a href="#features" class="smooth-anchor nav-link">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#process" class="smooth-anchor nav-link">PROCESS</a>
+                    <a href="#process" class="smooth-anchor nav-link">PROCESO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonials" class="smooth-anchor nav-link">TESTIMONIALS</a>
-                </li>
-            </ul>
-
-            <!-- Navbar Icons -->
-            <ul class="navbar-nav icons">
-                <li class="nav-item">
-                    <a href="#" class="nav-link" data-toggle="modal" data-target="#sign">
-                        <i class="icon-user"></i>
-                    </a>
+                    <a href="#testimonials" class="smooth-anchor nav-link">TESTIMONIOS</a>
                 </li>
             </ul>
 
@@ -102,7 +93,7 @@
             <!-- Navbar Action -->
             <ul class="navbar-nav action">
                 <li class="nav-item ml-3">
-                    <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">GET IN TOUCH</a>
+                    <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTÁCTANOS</a>
                 </li>
             </ul>
         </div>
