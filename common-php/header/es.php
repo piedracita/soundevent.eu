@@ -6,10 +6,10 @@
 
             <!-- Navbar Items [left] -->
             <ul class="navbar-nav">
-                <li class="nav-item">
+            <!--<li class="nav-item">
                     <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>
                 </li>
-            </ul>
+            </ul> -->
 
             <!-- Nav holder -->
             <div class="ml-auto"></div>
