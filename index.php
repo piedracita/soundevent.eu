@@ -23,7 +23,7 @@ $page_desc  = "SoundEvent: Especialistas en alquiler de sonido, iluminación pro
 
         <!-- Hero -->
         <section id="slider" class="hero p-0 odd">
-            <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
+            <div class="swiper-container no-slider animation slider-h-100">
                 <div class="swiper-wrapper">
 
                     <!-- Item 1 -->

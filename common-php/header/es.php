@@ -1,47 +1,7 @@
 <header id="header">
 
-    <!-- Top Navbar -->
-    <nav class="navbar navbar-expand top">
-        <div class="container header">
-
-            <!-- Navbar Items [left] -->
-            <ul class="navbar-nav">
-            <!--<li class="nav-item">
-                    <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>
-                </li>
-            </ul> -->
-
-            <!-- Nav holder -->
-            <div class="ml-auto"></div>
-
-            <!-- Navbar Items [right] -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="<?php echo $wa_url; ?>" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+34 625 171 701</a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?php echo $mailto_url; ?>" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="fas fa-envelope mr-2"></i>info@soundevent.eu</a>
-                </li>
-            </ul>
-
-            <!-- Navbar Icons -->
-            <!-- <ul class="navbar-nav icons">
-                <li class="nav-item social">
-                    <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="nav-item social">
-                    <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-            </ul> -->
-
-        </div>
-    </nav>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand navbar-fixed sub">
+    <nav class="navbar navbar-expand navbar-fixed">
         <div class="container header">
 
             <!-- Navbar Brand-->

@@ -41,6 +41,9 @@
 14. Keyframe
 15. All Media Queries
 16. Custom CSS - Whatsapp Float Button
+17. Evitar que la plantilla desbordi lateralment l'amplada del telèfon
+18. Força la imatge de fons a omplir tot el Hero en mòbils sense franges negres
+
 
 ----------------------------------------------*/
 
@@ -4763,4 +4766,34 @@ footer .copyright p {
 .whatsapp-icon {
     margin-top: 2px;
     font-size: 2.5rem;
+}
+
+
+/*----------------------------------------------
+17. Evitar que la plantilla desbordi lateralment l'amplada del telèfon
+----------------------------------------------*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+
+/*----------------------------------------------
+18. Força la imatge de fons a omplir tot el Hero en mòbils sense franges negres
+----------------------------------------------*/
+#slider .swiper-slide .full-image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+@media (max-width: 767px) {
+    #slider, 
+    #slider .swiper-container, 
+    #slider .swiper-slide {
+        height: 100vh !important;
+        min-height: 500px;
+    }
 }
