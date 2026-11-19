@@ -15,9 +15,10 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/logo-1.png" alt="Logo" class="logo invert">
+                                <!-- <img src="assets/images/logo-1.png" alt="Logo" class="logo invert"> -->
                                 <p>¡El sonido y la iluminación fueron espectaculares! Nuestra fiesta de cumpleaños privada salió perfecta gracias a la gran profesionalidad del equipo de SoundEvent.</p>
                                 <p>Repetiremos sin duda.</p>
+                                <p><b>— Juan Pérez, CEO de TechCorp</b></p>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -26,9 +27,9 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/logo-2.png" alt="Logo" class="logo invert">
                                 <p>¡El servicio fue excepcional! SoundEvent hizo que nuestro evento de empresa fuera un éxito total.</p>
                                 <p>Altamente recomendado.</p>
+                                <p><b>— Ana Martínez, Gerente de Operaciones</b></p>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -37,9 +38,9 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/logo-3.png" alt="Logo" class="logo invert">
                                 <p>Nuestra boda fue sencillamente mágica. Tanto la iluminación como el equipo de sonido crearon un ambiente increíble en la recepción y en la fiesta.</p>
                                 <p>Todos los invitados quedaron encantados.</p>
+                                <p><b>— María García, Organizadora de Eventos</b></p>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -48,8 +49,8 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/logo-4.png" alt="Logo" class="logo invert">
                                 <p>Recibimos un asesoramiento excelente desde el primer día. El equipo de sonido fue de altísima calidad y la ambientación musical hizo que todo el mundo disfrutara en la pista de baile.</p>
+                                <p><b>— Carlos López, Director de Marketing</b></p>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
@@ -58,8 +59,8 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card">
                             <div class="col-12">
-                                <img src="assets/images/logo-5.png" alt="Logo" class="logo invert">
                                 <p>Una solución integral perfecta para nuestra gala de empresa. El montaje del escenario, la iluminación y el sonido estuvieron impecables durante toda la noche.</p>
+                                <p><b>— Ana Martínez, Gerente de Operaciones</b></p>
                                 <i class="quote-right fas fa-quote-right"></i>
                             </div>
                         </div>
